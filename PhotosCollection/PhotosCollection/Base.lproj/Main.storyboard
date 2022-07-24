@@ -56,6 +56,9 @@
                             <constraint firstItem="2cp-nX-3ag" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="GUh-dY-8Ox"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="resultLabel" destination="67T-Hi-gc3" id="rvv-AA-VwK"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
