@@ -15,6 +15,7 @@
 		DA6587CE288D1DF700CEC85C /* PhotosCollectionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA6587CD288D1DF700CEC85C /* PhotosCollectionTests.swift */; };
 		DA6587D8288D1DF700CEC85C /* PhotosCollectionUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA6587D7288D1DF700CEC85C /* PhotosCollectionUITests.swift */; };
 		DA6587DA288D1DF700CEC85C /* PhotosCollectionUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA6587D9288D1DF700CEC85C /* PhotosCollectionUITestsLaunchTests.swift */; };
+		DA6587E7288F201200CEC85C /* TabbarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA6587E6288F201200CEC85C /* TabbarController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		DA6587D3288D1DF700CEC85C /* PhotosCollectionUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PhotosCollectionUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DA6587D7288D1DF700CEC85C /* PhotosCollectionUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotosCollectionUITests.swift; sourceTree = "<group>"; };
 		DA6587D9288D1DF700CEC85C /* PhotosCollectionUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotosCollectionUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		DA6587E6288F201200CEC85C /* TabbarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabbarController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,7 @@
 				DA6587BF288D1DF700CEC85C /* Assets.xcassets */,
 				DA6587C1288D1DF700CEC85C /* LaunchScreen.storyboard */,
 				DA6587C4288D1DF700CEC85C /* Info.plist */,
+				DA6587E6288F201200CEC85C /* TabbarController.swift */,
 			);
 			path = PhotosCollection;
 			sourceTree = "<group>";
@@ -255,6 +258,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DA6587BB288D1DF600CEC85C /* ViewController.swift in Sources */,
+				DA6587E7288F201200CEC85C /* TabbarController.swift in Sources */,
 				DA6587B7288D1DF600CEC85C /* AppDelegate.swift in Sources */,
 				DA6587B9288D1DF600CEC85C /* SceneDelegate.swift in Sources */,
 			);
@@ -431,7 +435,7 @@
 				INFOPLIST_FILE = PhotosCollection/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIMainStoryboardFile = "";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -461,7 +465,7 @@
 				INFOPLIST_FILE = PhotosCollection/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIMainStoryboardFile = "";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
