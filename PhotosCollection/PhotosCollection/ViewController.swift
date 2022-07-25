@@ -14,12 +14,27 @@ struct Post {
 }
 
 class ViewController: UIViewController {
-    
-    @IBOutlet weak var resultLabel: UILabel!
+
+    var resultLabel: UILabel = {
+        let label = UILabel()
+        label.translatesAutoresizingMaskIntoConstraints = false
+        label.text = "Result"
+        return label
+    }()
     
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
+        view.addSubview(resultLabel)
+        view.backgroundColor = .white
+        
+        let constraints = [
+            resultLabel.leadingAnchor.constraint(equalTo: view.leadingAnchor, constant: 16),
+            resultLabel.trailingAnchor.constraint(equalTo: view.trailingAnchor, constant: -16),
+            resultLabel.topAnchor.constraint(equalTo: view.safeAreaLayoutGuide.topAnchor, constant: 32),
+            resultLabel.heightAnchor.constraint(equalToConstant: 42)
+        ]
+        NSLayoutConstraint.activate(constraints)
         
         print("Start load data")
         loadData {[weak self] post in
