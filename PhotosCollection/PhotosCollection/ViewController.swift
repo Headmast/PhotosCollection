@@ -15,17 +15,28 @@ struct Post {
 
 class ViewController: UIViewController {
 
+    let titleString: String
+    
     var resultLabel: UILabel = {
         let label = UILabel()
         label.translatesAutoresizingMaskIntoConstraints = false
-        label.text = "Result"
         return label
     }()
+    
+    init(title: String) {
+        self.titleString = title
+        super.init(nibName: nil, bundle: nil)
+    }
+    
+    required init?(coder: NSCoder) {
+        fatalError("init(coder:) has not been implemented")
+    }
     
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
         view.addSubview(resultLabel)
+        resultLabel.text = self.titleString
         view.backgroundColor = .white
         
         let constraints = [
@@ -38,7 +49,7 @@ class ViewController: UIViewController {
         
         print("Start load data")
         loadData {[weak self] post in
-            self?.resultLabel.text = "Success" + " " + String(post.id) + " " + post.title
+            self?.resultLabel.text = (self?.titleString ?? "") + " " + String(post.id) + " " + post.title
             print("Finish load data")
         }
         
@@ -66,7 +77,7 @@ class ViewController: UIViewController {
                let title = json["title"] as? String {
                 //print ("Success" + " " + String(id) + " " + title)
                 DispatchQueue.main.async { [weak self]  in
-                    self?.resultLabel.text = "Success" + " " + String(id) + " " + title
+                    self?.resultLabel.text = (self?.titleString ?? "") + " " + String(id) + " " + title
                 }
             }
         }
