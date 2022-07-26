@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DA32899F288FB0F0009FAE9D /* OperationsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA32899E288FB0F0009FAE9D /* OperationsViewController.swift */; };
 		DA6587B7288D1DF600CEC85C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA6587B6288D1DF600CEC85C /* AppDelegate.swift */; };
 		DA6587B9288D1DF600CEC85C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA6587B8288D1DF600CEC85C /* SceneDelegate.swift */; };
 		DA6587BB288D1DF600CEC85C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA6587BA288D1DF600CEC85C /* ViewController.swift */; };
@@ -36,6 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		DA32899E288FB0F0009FAE9D /* OperationsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OperationsViewController.swift; sourceTree = "<group>"; };
 		DA6587B3288D1DF600CEC85C /* PhotosCollection.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PhotosCollection.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DA6587B6288D1DF600CEC85C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DA6587B8288D1DF600CEC85C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -106,6 +108,7 @@
 				DA6587C1288D1DF700CEC85C /* LaunchScreen.storyboard */,
 				DA6587C4288D1DF700CEC85C /* Info.plist */,
 				DA6587E6288F201200CEC85C /* TabbarController.swift */,
+				DA32899E288FB0F0009FAE9D /* OperationsViewController.swift */,
 			);
 			path = PhotosCollection;
 			sourceTree = "<group>";
@@ -259,6 +262,7 @@
 			files = (
 				DA6587BB288D1DF600CEC85C /* ViewController.swift in Sources */,
 				DA6587E7288F201200CEC85C /* TabbarController.swift in Sources */,
+				DA32899F288FB0F0009FAE9D /* OperationsViewController.swift in Sources */,
 				DA6587B7288D1DF600CEC85C /* AppDelegate.swift in Sources */,
 				DA6587B9288D1DF600CEC85C /* SceneDelegate.swift in Sources */,
 			);
