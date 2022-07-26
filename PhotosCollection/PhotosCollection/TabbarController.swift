@@ -7,6 +7,7 @@
 
 import Foundation
 import UIKit
+import SwiftUI
 
 class TabbarController: UITabBarController {
     
@@ -14,7 +15,7 @@ class TabbarController: UITabBarController {
         let firstVC = ViewController(title: "First")
         let firstItem = UITabBarItem(title: "Async", image: UIImage(systemName: "drop"), selectedImage: UIImage(systemName: "drop.fill"))
         firstVC.tabBarItem = firstItem
-        let secondVC = OperationsViewController()
+        let secondVC = UIHostingController(rootView: Text("Hello World")) //OperationsViewController()
         let secondItem = UITabBarItem(title: "Dispet", image: UIImage(systemName: "leaf"), selectedImage: UIImage(systemName: "leaf.fill"))
         secondVC.tabBarItem = secondItem
         self.viewControllers = [firstVC, secondVC]
