@@ -26,7 +26,5 @@ class OperationsViewController: UIViewController {
             titleLabel.topAnchor.constraint(equalTo: view.safeAreaLayoutGuide.topAnchor, constant: 16)
         ]
         NSLayoutConstraint.activate(constraints)
-        
-        dura
     }
 }
