@@ -17,6 +17,8 @@
 		DA6587D8288D1DF700CEC85C /* PhotosCollectionUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA6587D7288D1DF700CEC85C /* PhotosCollectionUITests.swift */; };
 		DA6587DA288D1DF700CEC85C /* PhotosCollectionUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA6587D9288D1DF700CEC85C /* PhotosCollectionUITestsLaunchTests.swift */; };
 		DA6587E7288F201200CEC85C /* TabbarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA6587E6288F201200CEC85C /* TabbarController.swift */; };
+		DA9F97502891D6D0008B73C9 /* LabelUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA9F974F2891D6D0008B73C9 /* LabelUI.swift */; };
+		DA9F97522891DA48008B73C9 /* StackUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA9F97512891DA48008B73C9 /* StackUI.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,8 @@
 		DA6587D7288D1DF700CEC85C /* PhotosCollectionUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotosCollectionUITests.swift; sourceTree = "<group>"; };
 		DA6587D9288D1DF700CEC85C /* PhotosCollectionUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotosCollectionUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		DA6587E6288F201200CEC85C /* TabbarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabbarController.swift; sourceTree = "<group>"; };
+		DA9F974F2891D6D0008B73C9 /* LabelUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LabelUI.swift; sourceTree = "<group>"; };
+		DA9F97512891DA48008B73C9 /* StackUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StackUI.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +113,8 @@
 				DA6587C4288D1DF700CEC85C /* Info.plist */,
 				DA6587E6288F201200CEC85C /* TabbarController.swift */,
 				DA32899E288FB0F0009FAE9D /* OperationsViewController.swift */,
+				DA9F974F2891D6D0008B73C9 /* LabelUI.swift */,
+				DA9F97512891DA48008B73C9 /* StackUI.swift */,
 			);
 			path = PhotosCollection;
 			sourceTree = "<group>";
@@ -264,6 +270,8 @@
 				DA6587E7288F201200CEC85C /* TabbarController.swift in Sources */,
 				DA32899F288FB0F0009FAE9D /* OperationsViewController.swift in Sources */,
 				DA6587B7288D1DF600CEC85C /* AppDelegate.swift in Sources */,
+				DA9F97502891D6D0008B73C9 /* LabelUI.swift in Sources */,
+				DA9F97522891DA48008B73C9 /* StackUI.swift in Sources */,
 				DA6587B9288D1DF600CEC85C /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

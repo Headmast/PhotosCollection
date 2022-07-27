@@ -7,7 +7,6 @@
 
 import Foundation
 import UIKit
-import SwiftUI
 
 class TabbarController: UITabBarController {
     
@@ -15,10 +14,17 @@ class TabbarController: UITabBarController {
         let firstVC = ViewController(title: "First")
         let firstItem = UITabBarItem(title: "Async", image: UIImage(systemName: "drop"), selectedImage: UIImage(systemName: "drop.fill"))
         firstVC.tabBarItem = firstItem
-        let secondVC = UIHostingController(rootView: Text("Hello World")) //OperationsViewController()
+        
+        let secondVC = LabelUI().getViewController()
+        //OperationsViewController()
         let secondItem = UITabBarItem(title: "Dispet", image: UIImage(systemName: "leaf"), selectedImage: UIImage(systemName: "leaf.fill"))
         secondVC.tabBarItem = secondItem
-        self.viewControllers = [firstVC, secondVC]
+        
+        let thirdVC = StackUI().getViewController()
+        let thirdItem = UITabBarItem(title: "StackUI", image: UIImage(systemName: "rectangle.portrait.and.arrow.right"), selectedImage: UIImage(systemName: "rectangle.portrait.and.arrow.right.fill"))
+        thirdVC.tabBarItem = thirdItem
+        
+        self.viewControllers = [firstVC, secondVC, thirdVC]
     }
     
 }
